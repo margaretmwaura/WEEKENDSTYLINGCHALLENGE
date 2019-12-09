@@ -1,0 +1,458 @@
+#body {
+  background-color: #FAFAFA;
+
+  &_navbar {
+    padding-left: 150px;
+    background-color: #0C0920;
+
+    &_left {
+      ul {
+        background-color: #0C0920;
+      }
+
+      #title {
+        color: #FDFDFD;
+        font-size: 20px;
+      }
+
+      li a {
+
+        color: #FDFDFD;
+        font-weight: bolder;
+        font-size: 15px;
+      }
+    }
+
+    &_right {
+      ul {
+        background-color: #0C0920;
+      }
+
+      li {
+
+        a {
+          color: #FDFDFD;
+          font-weight: normal;
+          font-size: 15px
+        }
+      }
+    }
+
+
+  }
+
+
+  &_banners {
+    height: 450px;
+
+    &_one {
+      background: url('roof.jpeg');
+
+      &_first {
+        width: 100%;
+        height: 100%; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(left top, #AB8468, #91577E); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(bottom right, #AB8468, #91577E); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(bottom right, #AB8468, #91577E); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to bottom right, #AB8468, #91577E);
+        opacity: 90%;
+
+        &_one {
+          padding-left: 50px;
+
+          p {
+            color: #ffffff;
+            font-weight: bolder;
+          }
+
+          span {
+            font-size: 9px;
+          }
+        }
+      }
+    }
+
+
+    &_two {
+      background: url('city.png');
+
+      &_first {
+        width: 100%;
+        height: 100%;
+        background: #6270A5;
+        opacity: 70%;
+
+        &_one {
+          padding-left: 50px;
+
+          p {
+            color: #ffffff;
+            font-weight: bolder;
+
+          }
+
+          span {
+            font-size: 9px;
+          }
+        }
+      }
+    }
+
+    &_three {
+      background: url('terrain.jpeg');
+
+      &_first {
+        width: 100%;
+        height: 100%; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(left top, #65753D, #1D2553); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(bottom right, #65753D, #1D2553); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(bottom right, #65753D, #1D2553); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to bottom right, #65753D, #1D2553);
+        opacity: 70%;
+
+
+        &_one {
+          padding-left: 50px;
+
+          p {
+            color: #ffffff;
+            font-weight: bolder;
+          }
+
+          span {
+            font-size: 9px;
+          }
+        }
+
+
+      }
+    }
+  }
+
+
+  &_intro {
+    padding-top: 30px;
+
+    &_one {
+      h4 {
+        color: gray;
+      }
+    }
+
+    svg {
+      circle {
+        cx: 8;
+        cy: 8;
+        r: 8;
+        stroke: black;
+        stroke-width: 0;
+        fill: black;
+      }
+    }
+  }
+
+
+  &_about {
+    &_one {
+
+      &_content {
+        background-color: #ffffff;
+        padding: 20px 20px 20px 20px;
+        height: 200px;
+        width: 350px;
+        border-bottom: 5px solid #BAD780;
+
+        h6 {
+          font-weight: bolder;
+        }
+      }
+    }
+
+    &_two {
+
+      &_content {
+        background-color: #ffffff;
+        padding: 20px 20px 20px 20px;
+        height: 200px;
+        width: 350px;
+        border-bottom: 5px solid #E19122;
+
+        h6 {
+          font-weight: bolder;
+        }
+      }
+    }
+
+    &_three {
+      &_content {
+        background-color: #ffffff;
+        padding: 20px 20px 20px 20px;
+        height: 200px;
+        width: 350px;
+        border-bottom: 5px solid #74C3EE;
+
+        h6 {
+          font-weight: bolder;
+        }
+      }
+    }
+
+  }
+
+
+  &_message {
+    background-color: #ffffff;
+    margin-top: 50px;
+
+    &_start {
+      margin-top: 30px;
+
+      &_one {
+        border-bottom: 2px solid gray;
+        padding-top: 10px;
+
+        #one {
+          font-size: 18px;
+        }
+
+        #two {
+          font-size: 12px;
+          padding-top: 10px;
+        }
+      }
+
+
+      &_two {
+
+        &_beginning {
+          border-bottom: 2px solid gray;
+          padding-top: 30px;
+          padding-bottom: 30px;
+
+          &_content {
+
+            &_one {
+              background: url('unity.jpeg');
+
+            }
+
+            &_two
+            {
+              h6
+              {
+                font-weight: bolder;
+              }
+              span{
+                color: #F0E58E;
+              }
+            }
+          }
+        }
+
+        &_next {
+          border-bottom: 2px solid gray;
+          padding-top: 30px;
+          padding-bottom: 30px;
+
+          &_content {
+
+            &_one {
+              background: url('interview.jpeg');
+
+            }
+
+            &_two
+            {
+              h6
+              {
+                font-weight: bolder;
+              }
+              span{
+                color: #F0E58E;
+              }
+            }
+          }
+        }
+
+        &_second
+        {
+          border-bottom: 2px solid gray;
+          padding-top: 30px;
+          padding-bottom: 30px;
+
+          &_content
+          {
+
+            &_one {
+              background: url('studying.jpeg');
+            }
+
+            &_two
+            {
+              h6
+              {
+                font-weight: bolder;
+              }
+              span{
+                color: #8BD2F3
+              }
+            }
+          }
+        }
+
+        &_third
+        {
+          border-bottom: 2px solid gray;
+          padding-top: 30px;
+          padding-bottom: 30px;
+
+          &_content
+          {
+            &_one
+            {
+              background: url('skycrapper.jpeg');
+            }
+            &_two
+            {
+              h6
+              {
+                font-weight: bolder;
+              }
+              span{
+                color: #8BD2F3
+              }
+            }
+          }
+        }
+      }
+
+
+      &_three
+      {
+        background: #FAFAFA;
+
+        &_one
+        {
+          img
+          {
+            height: 350px;
+            width: 390px;
+          }
+        }
+
+        &_two
+        {
+
+          &_one
+          {
+            border-bottom: 1px solid gray;
+            margin-top: 20px;
+          }
+
+          &_two
+          {
+            &_first
+            {
+              padding-top: 10px;
+
+              &_image
+              {
+                img
+                {
+                  height: 150px;
+                  width: 150px;
+                }
+              }
+
+              &_data
+              {
+                padding-top: 40px ;
+                padding-left: 10px;
+              }
+            }
+
+            &_second
+            {
+              margin-top: 10px;
+              &_image
+              {
+                img
+                {
+                  height: 150px;
+                  width: 150px;
+                }
+              }
+
+              &_data
+              {
+                padding-top: 40px ;
+                padding-left: 10px;
+              }
+
+            }
+
+            &_third
+            {
+              margin-top: 10px;
+              &_image
+              {
+                img
+                {
+                  height: 150px;
+                  width: 150px;
+                }
+              }
+
+              &_data
+              {
+                padding-top: 40px ;
+                padding-left: 10px;
+              }
+            }
+
+            &_fourth
+            {
+              margin-top: 10px;
+              &_image
+              {
+                img
+                {
+                  height: 150px;
+                  width: 150px;
+                }
+              }
+
+              &_data
+              {
+                padding-top: 40px ;
+                padding-left: 10px;
+              }
+            }
+
+
+
+            &_fifth
+            {
+              margin-top: 10px;
+              &_image
+              {
+                img
+                {
+                  height: 150px;
+                  width: 150px;
+                }
+              }
+
+              &_data
+              {
+                padding-top: 40px ;
+                padding-left: 10px;
+              }
+            }
+          }
+
+        }
+      }
+    }
+  }
+}
