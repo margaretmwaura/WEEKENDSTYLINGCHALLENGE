@@ -1,11 +1,14 @@
 #body {
   background-color: #FAFAFA;
 
-  &_navbar {
-    padding-left: 150px;
-    background-color: #0C0920;
 
-    &_left {
+  &_nav_bar
+  {
+    background-color: #0C0920;
+    &_navbar {
+      background-color: #0C0920;
+
+
       ul {
         background-color: #0C0920;
       }
@@ -15,31 +18,39 @@
         font-size: 20px;
       }
 
-      li a {
+      ul li a {
 
         color: #FDFDFD;
         font-weight: bolder;
         font-size: 15px;
       }
+
     }
-
-    &_right {
-      ul {
-        background-color: #0C0920;
-      }
-
-      li {
-
-        a {
-          color: #FDFDFD;
-          font-weight: normal;
-          font-size: 15px
-        }
-      }
-    }
-
-
   }
+
+
+
+
+
+
+
+    //&_right {
+    //  ul {
+    //    background-color: #0C0920;
+    //  }
+    //
+    //  li {
+    //
+    //    a {
+    //      color: #FDFDFD;
+    //      font-weight: normal;
+    //      font-size: 15px
+    //    }
+    //  }
+    //}
+
+
+
 
 
   &_banners {
@@ -132,6 +143,7 @@
 
   &_intro {
     padding-top: 30px;
+    height: 100px;
 
     &_one {
       h4 {
@@ -154,7 +166,6 @@
 
   &_about {
     &_one {
-
       &_content {
         background-color: #ffffff;
         padding: 20px 20px 20px 20px;
@@ -169,7 +180,6 @@
     }
 
     &_two {
-
       &_content {
         background-color: #ffffff;
         padding: 20px 20px 20px 20px;

@@ -17,27 +17,31 @@
        <div class="grid-frame" id="body">
 
 <!--           This is the code for the top nav bar-->
-           <div class="top-bar" id="body_navbar">
-           <div class="top-bar-left" id="body_navbar_left">
-            <ul class="menu">
-            <li class="menu-text" id="title" >Sharp Daily</li>
-            <li><a href="#" >Topics</a></li>
-            <li><a href="#" >Blogs</a></li>
-            <li><a href="#" >Pulbications | magazines</a></li>
-            <li><a href="#" >News</a></li>
-            <li><a href="#" > | </a></li>
-            <li><a href="#" > Support</a></li>
-          </ul>
-        </div>
-         <div class="top-bar-right" id="body_navbar_right">
-              <ul class="menu icons icon-left">
-              <li><a href="#" ><i class="fi-mail"></i> <span>Subscribe</span></a></li>
-              <li><a href="#" ><i class="fi-torso"></i> <span>Sign in</span></a></li>
-              <li><a href="#" >Register</a></li>
-              <li><a href="#" ><i class="fi-magnifying-glass"></i> <span></span></a></li>
-          </ul>
-        </div>
-         </div>
+           <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+               <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+               <div class="title-bar-title">Menu</div>
+           </div>
+
+           <div id="body_nav_bar">
+           <div id="responsive-menu" >
+               <div id="body_nav_bar_navbar" class="grid-container">
+              <ul class="menu dropdown align-center" data-dropdown-menu>
+                <li class="menu-text" id="title" >Sharp Daily</li>
+                <li><a href="#" >Topics</a></li>
+                <li><a href="#" >Blogs</a></li>
+                <li><a href="#" >Pulbications | magazines</a></li>
+                <li><a href="#" >News</a></li>
+                <li><a href="#" > | </a></li>
+                <li><a href="#" > Support</a></li>
+                <li><a href="#" ><i class="fi-mail"></i> <span>Subscribe</span></a></li>
+                <li><a href="#" ><i class="fi-torso"></i> <span>Sign in</span></a></li>
+                <li><a href="#" >Register</a></li>
+                <li><a href="#" ><i class="fi-magnifying-glass"></i> <span></span></a></li>
+             </ul>
+               </div>
+           </div>
+           </div>
+
            <div class="grid-x" id="body_banners">
          <div class="cell medium-6 large-6" id="body_banners_one">
           <div  class="grid-y" id="body_banners_one_first">
@@ -93,31 +97,25 @@
         </div>
             <div class="grid-container">
             <div class="grid-x"id="body_intro">
-               <div class="cell medium-3 large-1" >
-
-             </div>
-               <div class="cell medium-3 large-3" id="body_intro_one">
-             <h4 >SharpCents</h4>
-            </div>
+               <div class="cell medium-6 large-4" id="body_intro_one">
+                 <h4 >SharpCents</h4>
+                </div>
                <div class="cell medium-3 large-6" ></div>
-               <div class="cell medium 2 large-1">
-                <div class="grid-x">
-              <div class="cell auto">
-               <svg><circle /></svg>
-              </div>
-                <div class="cell auto">
-                <svg><circle /></svg>
-              </div>
-               <div class="cell auto">
-                 <svg><circle /></svg>
-               </div>
-         </div>
-       </div>
-               <div class="cell medium-1 large-1" >
-
-               </div>
+               <div class="cell medium-2 large-1"></div>
+                <div class="cell medium-1 large-1">
+                    <div class="grid-x">
+                        <div class="cell auto">
+                            <svg><circle /></svg>
+                        </div>
+                        <div class="cell auto">
+                            <svg><circle /></svg>
+                        </div>
+                        <div class="cell auto">
+                            <svg><circle /></svg>
+                        </div>
+                    </div>
+                </div>
             </div>
-
                 <div class="grid-x"  id="body_about">
 
               <div class="cell medium-3 large-4"  id="body_about_one">
